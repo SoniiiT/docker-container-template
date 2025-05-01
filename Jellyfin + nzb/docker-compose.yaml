@@ -1,0 +1,105 @@
+
+services:
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin:latest
+    container_name: jellyfin
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Europe/Berlin
+      # - JELLYFIN_PublishedServerUrl=192.168.178.21 #optional
+    volumes:
+      - /path/to/jellyfin/library:/config
+      - /path/to/jellyfin/tvseries:/data/tvshows
+      - /path/to/jellyfin/movies:/data/movies
+      - /path/to/jellyfin/music:/data/music
+      - /path/to/jellyfin/photos:/data/photos
+      - /path/to/jellyfin/books:/data/books
+      - /path/to/jellyfin/comics:/data/comics
+      - /path/to/jellyfin/plugins:/config/plugins
+    ports:
+      - 8096:8096
+      - 8920:8920 #optional
+      - 7359:7359/udp #optional
+      - 1900:1900/udp #optional
+    restart: unless-stopped
+
+  jellyfin-vue:
+    image: ghcr.io/jellyfin/jellyfin-vue:
+    container_name: jellyfin-vue
+    ports:
+      - "8645:80"
+    restart: unless-stopped
+
+  sonarr:
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: sonarr
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Europe/Berlin
+    volumes:
+      - /path/to/sonarr/data:/config
+      - /path/to/jellyfin/tvseries:/tv #optional
+      - /path/to/downloadclient-downloads:/downloads #optional
+    ports:
+      - 8989:8989
+    restart: unless-stopped
+
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Europe/Berlin
+    volumes:
+      - /path/to/radarr/data:/config
+      - /path/to/jellyfin/movies:/movies #optional
+      - /path/to/download-client-downloads:/downloads #optional
+    ports:
+      - 7878:7878
+    restart: unless-stopped
+
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: prowlarr
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Europe/Berlin
+    volumes:
+      - /path/to/prowlarr/data:/config
+    ports:
+      - 9696:9696
+    restart: unless-stopped
+
+  readarr:
+    image: lscr.io/linuxserver/readarr:develop
+    container_name: readarr
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Europe/Berlin
+    volumes:
+      - /path/to/readarr/data:/config
+      - /path/to/jellyfin/books:/books #optional
+      - /path/to/downloadclient-downloads:/downloads #optional
+    ports:
+      - 8787:8787
+    restart: unless-stopped
+
+  sabnzbd:
+    image: lscr.io/linuxserver/sabnzbd:latest
+    container_name: sabnzbd
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Europe/Berlin
+    volumes:
+      - /path/to/sabnzbd/config:/config
+      - /path/to/downloads:/downloads #optional
+      - /path/to/incomplete/downloads:/incomplete-downloads #optional
+    ports:
+      - 8070:8080
+    restart: unless-stopped

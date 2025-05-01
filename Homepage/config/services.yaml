@@ -1,0 +1,37 @@
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Networking:
+  - Traefik:
+      href: https://traefik.example.net/dashboard/
+      icon: https://icon.icepanel.io/Technology/svg/Traefik-Proxy.svg
+      description: Traefik
+      siteMonitor: http://192.168.178.100:9090
+      widget:
+        type: traefik
+        url: https://traefik.example.net
+
+- Infrastructure and Data:
+  - Proxmox:
+      href: https://proxmox.example.net:8006
+      icon: proxmox.png
+      description: PVE-SRV-XX
+      siteMonitor: https://proxmox.example.net:8006
+      widget:
+        type: proxmox
+        url: https://proxmox.example.net:8006
+        username: user@pam!user
+        password: password
+        node: pve-srv-xx
+        
+- Management:
+  - Portainer:
+      href: https://portainer.example.net/#!/1/docker/dashboard
+      icon: portainer.png
+      description: Portainer
+      siteMonitor: https://portainer.example.net
+      widget:
+        type: portainer
+        url: https:portainer.example.net
+        env: 1
+        key: api_token

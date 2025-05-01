@@ -1,0 +1,42 @@
+# Copyright Broadcom, Inc. All Rights Reserved.
+# SPDX-License-Identifier: APACHE-2.0
+
+services:
+  mariadb:
+    image: docker.io/bitnami/mariadb:11.4
+    environment:
+      - MARIADB_HOST=mariadb
+      - MARIADB_PORT_NUMBER=3306
+      - MARIADB_USER=${MOODLE_DATABASE_USER}
+      - MARIADB_PASSWORD=${MOODLE_DATABASE_PASSWORD}
+      - MARIADB_ROOT_PASSWORD=${MARIADB_ROOT_PASSWORD}
+      - MARIADB_DATABASE=bitnami_moodle
+      - MARIADB_CHARACTER_SET=utf8mb4
+      - MARIADB_COLLATE=utf8mb4_unicode_ci
+    volumes:
+      - mariadb_data:/bitnami/mariadb
+  moodle:
+    image: docker.io/bitnami/moodle:4.5
+    ports:
+      - 8030:8080
+      - 8443:8443
+    environment:
+      - MOODLE_DATABASE_HOST=mariadb
+      - MOODLE_DATABASE_PORT_NUMBER=3306
+      - MOODLE_DATABASE_USER=${MOODLE_DATABASE_USER}
+      - MOODLE_DATABASE_NAME=${MOODLE_DATABASE_NAME}
+      - MOODLE_DATABASE_PASSWORD=${MOODLE_DATABASE_PASSWORD}
+      - MOODLE_USERNAME=${MOODLE_USERNAME_ADMIN}
+      - MOODLE_PASSWORD=${MOODLE_PASSWORD_ADMIN}
+    volumes:
+      - moodle_data:/bitnami/moodle
+      - moodledata_data:/bitnami/moodledata
+    depends_on:
+      - mariadb
+volumes:
+  mariadb_data:
+    driver: local
+  moodle_data:
+    driver: local
+  moodledata_data:
+    driver: local

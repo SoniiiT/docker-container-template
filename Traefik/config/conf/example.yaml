@@ -1,0 +1,20 @@
+http:
+  routers:
+    example-route:
+      rule: "Host(`example.example.net`)"
+      service: example-service
+      entryPoints:
+      - websecure
+      tls:
+        certResolver: cloudflare
+
+  services:
+    example-service:
+      loadBalancer:
+        serversTransport: insecureTransport
+        servers:
+        - url: "http://192.168.178.240"
+
+  serversTransports:
+    insecureTransport:
+      insecureSkipVerify: true

@@ -1,0 +1,13 @@
+version: "2.1"
+services:
+  pwpush:
+    image: docker.io/pglombardo/pwpush:latest
+    ports:
+      - 5100:5100
+    volumes:
+      - ./config/settings.yaml:/opt/PasswordPusher/config/settings.yml
+      - ./logos:/opt/PasswordPusher/public/logos:ro
+    environment:
+      - PWP__THEME=quartz
+      - PWP_PRECOMPILE=true
+      - DATABASE_URL=sqlite3:db/db.sqlite3

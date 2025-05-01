@@ -1,0 +1,15 @@
+version: "3.2"
+services:
+  docs:
+    container_name: codex_doc
+    image: ghcr.io/codex-team/codex.docs:v2.2.3
+    restart: always
+    ports:
+      - 3000:3000
+    environment:
+      - APP_CONFIG_auth_password=codex
+      - APP_CONFIG_frontend_title=WIKI
+    volumes:
+      - ./uploads:/usr/src/app/uploads
+      - ./db:/usr/src/app/db
+      - ./docs-config.yaml:/usr/src/app/docs-config.yaml
