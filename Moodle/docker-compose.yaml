@@ -3,7 +3,7 @@
 
 services:
   mariadb:
-    image: docker.io/bitnami/mariadb:11.4
+    image: docker.io/bitnami/mariadb:11.8
     environment:
       - MARIADB_HOST=mariadb
       - MARIADB_PORT_NUMBER=3306
