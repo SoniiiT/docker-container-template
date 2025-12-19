@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   kestra:
-    image: kestra/kestra:v0.16.2-full
+    image: kestra/kestra:v0.17.28-full
     pull_policy: always
     container_name: kestra
     stdin_open: true
