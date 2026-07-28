@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "project_root": ".",
+  "analysis_mode": "initialized",
+  "analyzed_at": "2026-07-28T11:00:08+02:00",
+  "project_type": "Docker Compose template catalog",
+  "focused_scope": null,
+  "analyzed_areas": [
+    "repository structure",
+    "Docker Compose templates",
+    "configuration and deployment",
+    "dependencies",
+    "security risks",
+    "provider entry points"
+  ],
+  "source_fingerprints": {
+    "git_head": "5aa88956a67e24d946c26625b74d9e7884ace8b3",
+    "last_commit_at": "2026-05-07T23:35:12+02:00",
+    "tracked_files": 101,
+    "compose_files": 58,
+    "environment_files": 24,
+    "config_files": 16
+  },
+  "refresh_status": "current",
+  "notes": [
+    "Environment files and key-like files were inventoried by path only; secret values were not read or copied.",
+    "No application source, test suite, CI workflow, or package manifest was found."
+  ]
+}

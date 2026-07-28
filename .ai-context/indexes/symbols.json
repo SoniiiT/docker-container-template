@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-28T11:00:08+02:00",
+  "source_status": "observed",
+  "extraction": "compose service names",
+  "symbols": [
+    {"name": "services", "kind": "compose-root", "note": "Each compose file exposes a local service graph; see architecture.md and files.json."},
+    {"name": "depends_on", "kind": "compose-relation", "note": "Used by selected application and platform stacks for startup ordering."},
+    {"name": "networks", "kind": "compose-boundary", "note": "Used for internal, external, and proxy-facing connectivity."},
+    {"name": "volumes", "kind": "compose-state", "note": "Named volumes and host mounts carry persistent application state."}
+  ],
+  "limitations": [
+    "No language-level source symbols were available; the repository contains YAML, env, and service configuration rather than application code.",
+    "Individual service names remain in their source compose files and are summarized by template purpose."
+  ]
+}
