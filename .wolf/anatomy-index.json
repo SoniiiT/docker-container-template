@@ -1,0 +1,856 @@
+{
+  "version": 1,
+  "meta": {
+    "lastScanned": "2026-09-21T16:32:35.617Z",
+    "fileCount": 93,
+    "hits": 0,
+    "misses": 0,
+    "renderedHash": "abde51c417aa5da8322c0e3996268075b9a7aa7c62b662bb2465133527ffc454",
+    "storeUpdatedAt": "2026-09-21T16:32:35.618Z",
+    "rootHash": "2c6a0940728538e6"
+  },
+  "files": {
+    ".ai-context/architecture.md": {
+      "description": "Architecture",
+      "tokens": 643,
+      "hash": "64653c1f73caada0",
+      "size": 2569,
+      "mtimeMs": 1787554047077.2832,
+      "updatedAt": "2026-09-21T16:32:35.594Z",
+      "source": "scan"
+    },
+    ".ai-context/conventions.md": {
+      "description": "Conventions",
+      "tokens": 472,
+      "hash": "9b973f98840e0a4c",
+      "size": 1888,
+      "mtimeMs": 1787554047077.4077,
+      "updatedAt": "2026-09-21T16:32:35.595Z",
+      "source": "scan"
+    },
+    ".ai-context/dependencies.md": {
+      "description": "Dependencies",
+      "tokens": 343,
+      "hash": "fce3f2d30a428d9e",
+      "size": 1370,
+      "mtimeMs": 1787554047077.5046,
+      "updatedAt": "2026-09-21T16:32:35.595Z",
+      "source": "scan"
+    },
+    ".ai-context/indexes/files.json": {
+      "description": "",
+      "tokens": 2562,
+      "hash": "0e0d0c01b90df3ec",
+      "size": 8965,
+      "mtimeMs": 1787554047077.68,
+      "updatedAt": "2026-09-21T16:32:35.595Z",
+      "source": "scan"
+    },
+    ".ai-context/indexes/symbols.json": {
+      "description": "",
+      "tokens": 281,
+      "hash": "a7d63e85483cf1e6",
+      "size": 983,
+      "mtimeMs": 1787554047077.7803,
+      "updatedAt": "2026-09-21T16:32:35.595Z",
+      "source": "scan"
+    },
+    ".ai-context/knowledge/business-rules/README.md": {
+      "description": "Project documentation",
+      "tokens": 40,
+      "hash": "ec375481d457a5f1",
+      "size": 157,
+      "mtimeMs": 1787554047078.0808,
+      "updatedAt": "2026-09-21T16:32:35.596Z",
+      "source": "scan"
+    },
+    ".ai-context/knowledge/decisions/README.md": {
+      "description": "Project documentation",
+      "tokens": 70,
+      "hash": "9e2831724292e65d",
+      "size": 279,
+      "mtimeMs": 1787554047078.2485,
+      "updatedAt": "2026-09-21T16:32:35.596Z",
+      "source": "scan"
+    },
+    ".ai-context/knowledge/feature-guides/template-catalog.md": {
+      "description": "Template catalog lifecycle",
+      "tokens": 218,
+      "hash": "aac7d2d90cf63cf2",
+      "size": 870,
+      "mtimeMs": 1787554047078.3992,
+      "updatedAt": "2026-09-21T16:32:35.596Z",
+      "source": "scan"
+    },
+    ".ai-context/knowledge/README.md": {
+      "description": "Project documentation",
+      "tokens": 201,
+      "hash": "6559708ab2b06825",
+      "size": 803,
+      "mtimeMs": 1787554047077.926,
+      "updatedAt": "2026-09-21T16:32:35.596Z",
+      "source": "scan"
+    },
+    ".ai-context/knowledge/removal-guides/template-removal.md": {
+      "description": "Removing a template",
+      "tokens": 240,
+      "hash": "1a30151a0ea8ee32",
+      "size": 957,
+      "mtimeMs": 1787554047078.5437,
+      "updatedAt": "2026-09-21T16:32:35.597Z",
+      "source": "scan"
+    },
+    ".ai-context/knowledge/risks/observed-risks.md": {
+      "description": "Observed risks",
+      "tokens": 294,
+      "hash": "3b32dff416b6f634",
+      "size": 1175,
+      "mtimeMs": 1787554047078.6953,
+      "updatedAt": "2026-09-21T16:32:35.597Z",
+      "source": "scan"
+    },
+    ".ai-context/manifest.json": {
+      "description": "",
+      "tokens": 257,
+      "hash": "855ff666ca79c742",
+      "size": 898,
+      "mtimeMs": 1787554047078.7844,
+      "updatedAt": "2026-09-21T16:32:35.597Z",
+      "source": "scan"
+    },
+    ".ai-context/project-map.md": {
+      "description": "Project map",
+      "tokens": 466,
+      "hash": "9e86b6360cfe82bb",
+      "size": 1863,
+      "mtimeMs": 1787554047078.8765,
+      "updatedAt": "2026-09-21T16:32:35.597Z",
+      "source": "scan"
+    },
+    ".github/copilot-instructions.md": {
+      "description": "Copilot project context",
+      "tokens": 118,
+      "hash": "44ca79d185c94096",
+      "size": 471,
+      "mtimeMs": 1787554047079.0142,
+      "updatedAt": "2026-09-21T16:32:35.597Z",
+      "source": "scan"
+    },
+    "Activepieces/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 302,
+      "hash": "167312a6c11cefc2",
+      "size": 1054,
+      "mtimeMs": 1787554047079.563,
+      "updatedAt": "2026-09-21T16:32:35.597Z",
+      "source": "scan"
+    },
+    "AFFiNE/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 558,
+      "hash": "1ed428d4d0dcdfc9",
+      "size": 1951,
+      "mtimeMs": 1787554047079.237,
+      "updatedAt": "2026-09-21T16:32:35.598Z",
+      "source": "scan"
+    },
+    "AGENTS.md": {
+      "description": "Agent context",
+      "tokens": 196,
+      "hash": "b4a7821cbb451c88",
+      "size": 782,
+      "mtimeMs": 1790008355580.0474,
+      "updatedAt": "2026-09-21T16:32:35.598Z",
+      "source": "scan"
+    },
+    "Authentik/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 784,
+      "hash": "d92596962f7c9dec",
+      "size": 2741,
+      "mtimeMs": 1787554047079.7744,
+      "updatedAt": "2026-09-21T16:32:35.598Z",
+      "source": "scan"
+    },
+    "Bind9/config/named.conf": {
+      "description": "Declares master",
+      "tokens": 92,
+      "hash": "1476b1ed402b8824",
+      "size": 345,
+      "mtimeMs": 1787554047079.9524,
+      "updatedAt": "2026-09-21T16:32:35.598Z",
+      "source": "scan"
+    },
+    "Bind9/config/network.zone": {
+      "description": "",
+      "tokens": 144,
+      "hash": "d6c391163c8778be",
+      "size": 540,
+      "mtimeMs": 1787554047080.1353,
+      "updatedAt": "2026-09-21T16:32:35.598Z",
+      "source": "scan"
+    },
+    "Bind9/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 93,
+      "hash": "3ace40ca47292137",
+      "size": 325,
+      "mtimeMs": 1787554047080.225,
+      "updatedAt": "2026-09-21T16:32:35.598Z",
+      "source": "scan"
+    },
+    "Bitwarden/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 371,
+      "hash": "0f42accf7b0e5087",
+      "size": 1297,
+      "mtimeMs": 1787554047080.4485,
+      "updatedAt": "2026-09-21T16:32:35.598Z",
+      "source": "scan"
+    },
+    "Bitwarden/settings.env": {
+      "description": "####################",
+      "tokens": 462,
+      "hash": "60f285c45c9dbc98",
+      "size": 1730,
+      "mtimeMs": 1787554047080.539,
+      "updatedAt": "2026-09-21T16:32:35.599Z",
+      "source": "scan"
+    },
+    "Budibase/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 1148,
+      "hash": "15b4460b4147f026",
+      "size": 4016,
+      "mtimeMs": 1787554047080.7898,
+      "updatedAt": "2026-09-21T16:32:35.599Z",
+      "source": "scan"
+    },
+    "Cal.com/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 518,
+      "hash": "75c27962ee3b6209",
+      "size": 1813,
+      "mtimeMs": 1787554047081.0974,
+      "updatedAt": "2026-09-21T16:32:35.599Z",
+      "source": "scan"
+    },
+    "CLAUDE.md": {
+      "description": "OpenWolf",
+      "tokens": 214,
+      "hash": "7118c3165bc5a413",
+      "size": 855,
+      "mtimeMs": 1790008355574.057,
+      "updatedAt": "2026-09-21T16:32:35.599Z",
+      "source": "scan"
+    },
+    "Cloudfalre-tunnel/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 89,
+      "hash": "4113c08560a64029",
+      "size": 310,
+      "mtimeMs": 1787554047081.2998,
+      "updatedAt": "2026-09-21T16:32:35.599Z",
+      "source": "scan"
+    },
+    "Cloudflare-ddns/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 305,
+      "hash": "75ebc20e606d590c",
+      "size": 1066,
+      "mtimeMs": 1787554047081.4988,
+      "updatedAt": "2026-09-21T16:32:35.599Z",
+      "source": "scan"
+    },
+    "CodeX.docs/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 112,
+      "hash": "5d297e56bcfebaab",
+      "size": 392,
+      "mtimeMs": 1787554047081.6296,
+      "updatedAt": "2026-09-21T16:32:35.599Z",
+      "source": "scan"
+    },
+    "CodeX.docs/docs-config.yaml": {
+      "description": "",
+      "tokens": 92,
+      "hash": "17cb0480df6bac1f",
+      "size": 319,
+      "mtimeMs": 1787554047081.7175,
+      "updatedAt": "2026-09-21T16:32:35.599Z",
+      "source": "scan"
+    },
+    "Crowdsec/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 572,
+      "hash": "a606b820f522eeaf",
+      "size": 2000,
+      "mtimeMs": 1787554047081.8481,
+      "updatedAt": "2026-09-21T16:32:35.600Z",
+      "source": "scan"
+    },
+    "Dockge/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 181,
+      "hash": "d3b966cde743026b",
+      "size": 643,
+      "mtimeMs": 1787554047081.9734,
+      "updatedAt": "2026-09-21T16:32:35.600Z",
+      "source": "scan"
+    },
+    "Docmost/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 238,
+      "hash": "5b788e72d5f31c9f",
+      "size": 832,
+      "mtimeMs": 1787554047082.0825,
+      "updatedAt": "2026-09-21T16:32:35.600Z",
+      "source": "scan"
+    },
+    "Duplicati/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 108,
+      "hash": "ebeec488bac14372",
+      "size": 376,
+      "mtimeMs": 1787554047082.1887,
+      "updatedAt": "2026-09-21T16:32:35.600Z",
+      "source": "scan"
+    },
+    "Eclipse Mosquitto/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 91,
+      "hash": "333b12415a946881",
+      "size": 316,
+      "mtimeMs": 1787554047082.3003,
+      "updatedAt": "2026-09-21T16:32:35.600Z",
+      "source": "scan"
+    },
+    "FileZilla Server/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 122,
+      "hash": "75d5fd7f91d7b3b4",
+      "size": 424,
+      "mtimeMs": 1787554047082.495,
+      "updatedAt": "2026-09-21T16:32:35.600Z",
+      "source": "scan"
+    },
+    "Fireshare/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 262,
+      "hash": "19543d7d8f7afa50",
+      "size": 914,
+      "mtimeMs": 1787554047082.6143,
+      "updatedAt": "2026-09-21T16:32:35.600Z",
+      "source": "scan"
+    },
+    "Gotify/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 54,
+      "hash": "7843d1c16e464565",
+      "size": 188,
+      "mtimeMs": 1787554047082.75,
+      "updatedAt": "2026-09-21T16:32:35.601Z",
+      "source": "scan"
+    },
+    "Grafana-InfluxDB/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 235,
+      "hash": "a4eeb2c90cfdde80",
+      "size": 822,
+      "mtimeMs": 1787554047082.9348,
+      "updatedAt": "2026-09-21T16:32:35.601Z",
+      "source": "scan"
+    },
+    "GreyLog/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 726,
+      "hash": "0d7d78ce8fd9ae77",
+      "size": 2539,
+      "mtimeMs": 1787554047083.1145,
+      "updatedAt": "2026-09-21T16:32:35.601Z",
+      "source": "scan"
+    },
+    "HAProxy/config/haproxy.cfg": {
+      "description": "",
+      "tokens": 187,
+      "hash": "43f795460f09f88c",
+      "size": 699,
+      "mtimeMs": 1787554047083.2869,
+      "updatedAt": "2026-09-21T16:32:35.601Z",
+      "source": "scan"
+    },
+    "HAProxy/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 115,
+      "hash": "925d71c646e7f373",
+      "size": 401,
+      "mtimeMs": 1787554047083.355,
+      "updatedAt": "2026-09-21T16:32:35.601Z",
+      "source": "scan"
+    },
+    "Homeassistant/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 89,
+      "hash": "cccd7a73088e1fbc",
+      "size": 311,
+      "mtimeMs": 1787554047083.4695,
+      "updatedAt": "2026-09-21T16:32:35.601Z",
+      "source": "scan"
+    },
+    "Homepage/config/bookmarks.yaml": {
+      "description": "",
+      "tokens": 77,
+      "hash": "64e891ce286bf36f",
+      "size": 268,
+      "mtimeMs": 1787554047083.6228,
+      "updatedAt": "2026-09-21T16:32:35.601Z",
+      "source": "scan"
+    },
+    "Homepage/config/custom.css": {
+      "description": "",
+      "tokens": 0,
+      "hash": "e3b0c44298fc1c14",
+      "size": 0,
+      "mtimeMs": 1787554047083.6606,
+      "updatedAt": "2026-09-21T16:32:35.601Z",
+      "source": "scan"
+    },
+    "Homepage/config/custom.js": {
+      "description": "",
+      "tokens": 0,
+      "hash": "e3b0c44298fc1c14",
+      "size": 0,
+      "mtimeMs": 1787554047083.7043,
+      "updatedAt": "2026-09-21T16:32:35.601Z",
+      "source": "scan"
+    },
+    "Homepage/config/docker.yaml": {
+      "description": "For configuration options and examples, please see:",
+      "tokens": 57,
+      "hash": "0753b5f42c87d31d",
+      "size": 198,
+      "mtimeMs": 1787554047083.7825,
+      "updatedAt": "2026-09-21T16:32:35.602Z",
+      "source": "scan"
+    },
+    "Homepage/config/kubernetes.yaml": {
+      "description": "sample kubernetes config",
+      "tokens": 8,
+      "hash": "212b16244cf859f9",
+      "size": 26,
+      "mtimeMs": 1787554047083.8545,
+      "updatedAt": "2026-09-21T16:32:35.602Z",
+      "source": "scan"
+    },
+    "Homepage/config/services.yaml": {
+      "description": "For configuration options and examples, please see:",
+      "tokens": 310,
+      "hash": "e7e00b8e6e3cd2c7",
+      "size": 1084,
+      "mtimeMs": 1787554047083.9387,
+      "updatedAt": "2026-09-21T16:32:35.602Z",
+      "source": "scan"
+    },
+    "Homepage/config/settings.yaml": {
+      "description": "For configuration options and examples, please see:",
+      "tokens": 190,
+      "hash": "ec0ff9918dadb896",
+      "size": 664,
+      "mtimeMs": 1787554047084.013,
+      "updatedAt": "2026-09-21T16:32:35.602Z",
+      "source": "scan"
+    },
+    "Homepage/config/widgets.yaml": {
+      "description": "For configuration options and examples, please see:",
+      "tokens": 85,
+      "hash": "5218088330bec557",
+      "size": 295,
+      "mtimeMs": 1787554047084.0815,
+      "updatedAt": "2026-09-21T16:32:35.602Z",
+      "source": "scan"
+    },
+    "Homepage/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 155,
+      "hash": "efddc4684ccdd376",
+      "size": 540,
+      "mtimeMs": 1787554047084.1553,
+      "updatedAt": "2026-09-21T16:32:35.602Z",
+      "source": "scan"
+    },
+    "InfluxDB/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 99,
+      "hash": "4ffb8d40cad95e49",
+      "size": 346,
+      "mtimeMs": 1787554047084.2695,
+      "updatedAt": "2026-09-21T16:32:35.602Z",
+      "source": "scan"
+    },
+    "Jellyfin + nzb/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 771,
+      "hash": "f1f2c023c7a0bf31",
+      "size": 2697,
+      "mtimeMs": 1787554047084.4038,
+      "updatedAt": "2026-09-21T16:32:35.602Z",
+      "source": "scan"
+    },
+    "Jellyfin + qBittorent/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 788,
+      "hash": "ac0c2977baf75206",
+      "size": 2755,
+      "mtimeMs": 1787554047084.523,
+      "updatedAt": "2026-09-21T16:32:35.602Z",
+      "source": "scan"
+    },
+    "Kestra/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 220,
+      "hash": "79bc008a7d2ea885",
+      "size": 769,
+      "mtimeMs": 1787554047084.7102,
+      "updatedAt": "2026-09-21T16:32:35.603Z",
+      "source": "scan"
+    },
+    "MariaDB/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 64,
+      "hash": "285ff20075f1eb8a",
+      "size": 223,
+      "mtimeMs": 1787554047084.887,
+      "updatedAt": "2026-09-21T16:32:35.603Z",
+      "source": "scan"
+    },
+    "Memo-Notes/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 44,
+      "hash": "748aa3dfba0fd1ae",
+      "size": 152,
+      "mtimeMs": 1787554047084.997,
+      "updatedAt": "2026-09-21T16:32:35.603Z",
+      "source": "scan"
+    },
+    "Moodle/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 357,
+      "hash": "a2acfff453c6a62b",
+      "size": 1248,
+      "mtimeMs": 1787554047085.19,
+      "updatedAt": "2026-09-21T16:32:35.603Z",
+      "source": "scan"
+    },
+    "MySQL-phpMyAdmin/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 91,
+      "hash": "bc5e6d7bb913520c",
+      "size": 317,
+      "mtimeMs": 1787554047085.393,
+      "updatedAt": "2026-09-21T16:32:35.603Z",
+      "source": "scan"
+    },
+    "Netboot.xyz/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 163,
+      "hash": "9d1d664b2e6c54a7",
+      "size": 568,
+      "mtimeMs": 1787554047086.0137,
+      "updatedAt": "2026-09-21T16:32:35.603Z",
+      "source": "scan"
+    },
+    "Nextcloud-MariaDB/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 323,
+      "hash": "59e1a1a8668aa736",
+      "size": 1130,
+      "mtimeMs": 1787554047086.2336,
+      "updatedAt": "2026-09-21T16:32:35.603Z",
+      "source": "scan"
+    },
+    "NGINX-PHP-MySQL-phpMyAdmin/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 192,
+      "hash": "dc8a3bbbbc1811fa",
+      "size": 669,
+      "mtimeMs": 1787554047085.574,
+      "updatedAt": "2026-09-21T16:32:35.604Z",
+      "source": "scan"
+    },
+    "NGINX-ReverseProxy/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 91,
+      "hash": "ec8672519511c0d2",
+      "size": 318,
+      "mtimeMs": 1787554047085.6843,
+      "updatedAt": "2026-09-21T16:32:35.604Z",
+      "source": "scan"
+    },
+    "NGINX-Web/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 92,
+      "hash": "164b0e3352fd0b6a",
+      "size": 321,
+      "mtimeMs": 1787554047085.8179,
+      "updatedAt": "2026-09-21T16:32:35.604Z",
+      "source": "scan"
+    },
+    "Obsidian-LiveSync/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 100,
+      "hash": "f18404c2b38fc122",
+      "size": 350,
+      "mtimeMs": 1787554047086.3457,
+      "updatedAt": "2026-09-21T16:32:35.604Z",
+      "source": "scan"
+    },
+    "PiHole/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 244,
+      "hash": "78017b20c03946bc",
+      "size": 851,
+      "mtimeMs": 1787554047087.029,
+      "updatedAt": "2026-09-21T16:32:35.604Z",
+      "source": "scan"
+    },
+    "Planka/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 724,
+      "hash": "a87fe2be1edb6fb7",
+      "size": 2532,
+      "mtimeMs": 1787554047087.3042,
+      "updatedAt": "2026-09-21T16:32:35.604Z",
+      "source": "scan"
+    },
+    "PowerDNS/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 1109,
+      "hash": "3e050a76718a6372",
+      "size": 3879,
+      "mtimeMs": 1787554047087.631,
+      "updatedAt": "2026-09-21T16:32:35.604Z",
+      "source": "scan"
+    },
+    "Pterodactyl/Blueprint/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 1540,
+      "hash": "f9a1b3c3e2fb86a5",
+      "size": 5389,
+      "mtimeMs": 1787554047087.876,
+      "updatedAt": "2026-09-21T16:32:35.605Z",
+      "source": "scan"
+    },
+    "Pterodactyl/Pterodactyl-Panel/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 679,
+      "hash": "e2a47fb77131b429",
+      "size": 2374,
+      "mtimeMs": 1787554047088.0168,
+      "updatedAt": "2026-09-21T16:32:35.605Z",
+      "source": "scan"
+    },
+    "Pterodactyl/Pterodactyl-Wing/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 316,
+      "hash": "2542053b4d93aec5",
+      "size": 1106,
+      "mtimeMs": 1787554047088.2153,
+      "updatedAt": "2026-09-21T16:32:35.605Z",
+      "source": "scan"
+    },
+    "PWPusher/config/settings.yaml": {
+      "description": "Global Application Configuration",
+      "tokens": 8661,
+      "hash": "83354dda9ff3f83a",
+      "size": 30456,
+      "mtimeMs": 1787554047086.618,
+      "updatedAt": "2026-09-21T16:32:35.606Z",
+      "source": "scan"
+    },
+    "PWPusher/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 103,
+      "hash": "ab2245192066c3fb",
+      "size": 359,
+      "mtimeMs": 1787554047086.8008,
+      "updatedAt": "2026-09-21T16:32:35.606Z",
+      "source": "scan"
+    },
+    "RabbitMQ/cluster/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 218,
+      "hash": "db02569e293344ba",
+      "size": 762,
+      "mtimeMs": 1787554047088.538,
+      "updatedAt": "2026-09-21T16:32:35.606Z",
+      "source": "scan"
+    },
+    "RabbitMQ/normal/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 132,
+      "hash": "4d52d8bd7b57e2bf",
+      "size": 460,
+      "mtimeMs": 1787554047088.6597,
+      "updatedAt": "2026-09-21T16:32:35.606Z",
+      "source": "scan"
+    },
+    "Rancher/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 47,
+      "hash": "ea54947dd17de628",
+      "size": 162,
+      "mtimeMs": 1787554047088.7844,
+      "updatedAt": "2026-09-21T16:32:35.606Z",
+      "source": "scan"
+    },
+    "README.md": {
+      "description": "Project documentation",
+      "tokens": 293,
+      "hash": "7b3f8a24910baa04",
+      "size": 1187,
+      "mtimeMs": 1787554047088.3096,
+      "updatedAt": "2026-09-21T16:32:35.606Z",
+      "source": "scan"
+    },
+    "Redis/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 77,
+      "hash": "663568dcc201aee8",
+      "size": 268,
+      "mtimeMs": 1787554047088.9062,
+      "updatedAt": "2026-09-21T16:32:35.606Z",
+      "source": "scan"
+    },
+    "renovate.json": {
+      "description": "",
+      "tokens": 33,
+      "hash": "e80b4e42a3043bc1",
+      "size": 114,
+      "mtimeMs": 1787554047090.6885,
+      "updatedAt": "2026-09-21T16:32:35.607Z",
+      "source": "scan"
+    },
+    "Semaphore/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 610,
+      "hash": "1ac17a350429ce7f",
+      "size": 2135,
+      "mtimeMs": 1787554047089.0188,
+      "updatedAt": "2026-09-21T16:32:35.607Z",
+      "source": "scan"
+    },
+    "Taiscale/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 172,
+      "hash": "91ba12f1fcdd6b48",
+      "size": 602,
+      "mtimeMs": 1787554047089.1392,
+      "updatedAt": "2026-09-21T16:32:35.607Z",
+      "source": "scan"
+    },
+    "Teleport/config/teleport.yaml": {
+      "description": "",
+      "tokens": 356,
+      "hash": "b8bd9f1e6b17da12",
+      "size": 1245,
+      "mtimeMs": 1787554047089.3103,
+      "updatedAt": "2026-09-21T16:32:35.607Z",
+      "source": "scan"
+    },
+    "Teleport/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 413,
+      "hash": "562296221aec1f09",
+      "size": 1444,
+      "mtimeMs": 1787554047089.391,
+      "updatedAt": "2026-09-21T16:32:35.607Z",
+      "source": "scan"
+    },
+    "Traefik/config/conf/example.yaml": {
+      "description": "",
+      "tokens": 120,
+      "hash": "9a0ff6f8abcef150",
+      "size": 420,
+      "mtimeMs": 1787554047089.6763,
+      "updatedAt": "2026-09-21T16:32:35.607Z",
+      "source": "scan"
+    },
+    "Traefik/config/traefik.yaml": {
+      "description": "",
+      "tokens": 722,
+      "hash": "703ca9db512788d8",
+      "size": 2527,
+      "mtimeMs": 1787554047089.7827,
+      "updatedAt": "2026-09-21T16:32:35.608Z",
+      "source": "scan"
+    },
+    "Traefik/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 205,
+      "hash": "aceee2f61b4c0b4a",
+      "size": 717,
+      "mtimeMs": 1787554047089.878,
+      "updatedAt": "2026-09-21T16:32:35.608Z",
+      "source": "scan"
+    },
+    "Trilium/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 80,
+      "hash": "d2ae5a97de0b5f05",
+      "size": 279,
+      "mtimeMs": 1787554047089.9878,
+      "updatedAt": "2026-09-21T16:32:35.608Z",
+      "source": "scan"
+    },
+    "Twingate/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 175,
+      "hash": "69888565b130f7c7",
+      "size": 614,
+      "mtimeMs": 1787554047090.165,
+      "updatedAt": "2026-09-21T16:32:35.608Z",
+      "source": "scan"
+    },
+    "UpTimeKuma/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 96,
+      "hash": "92ea1b7d073fbb1d",
+      "size": 336,
+      "mtimeMs": 1787554047090.2632,
+      "updatedAt": "2026-09-21T16:32:35.608Z",
+      "source": "scan"
+    },
+    "Watchtower/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 197,
+      "hash": "60ac1de90e5e6b98",
+      "size": 689,
+      "mtimeMs": 1787554047090.3647,
+      "updatedAt": "2026-09-21T16:32:35.608Z",
+      "source": "scan"
+    },
+    "Whats-up-docker/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 169,
+      "hash": "0f7dc0eb5472b33e",
+      "size": 591,
+      "mtimeMs": 1787554047090.469,
+      "updatedAt": "2026-09-21T16:32:35.608Z",
+      "source": "scan"
+    },
+    "Zabbix/docker-compose.yaml": {
+      "description": "Docker Compose services",
+      "tokens": 243,
+      "hash": "c284120c479844d1",
+      "size": 850,
+      "mtimeMs": 1787554047090.6309,
+      "updatedAt": "2026-09-21T16:32:35.608Z",
+      "source": "scan"
+    }
+  },
+  "preamble": [
+    "> Project structure index. Auto-maintained by OpenWolf hooks and daemon.",
+    "> Run `openwolf scan` to generate, or wait for the first Claude Code session.",
+    "> Status: Pending initial scan"
+  ]
+}
