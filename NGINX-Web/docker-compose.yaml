@@ -6,7 +6,7 @@ networks:
 
 services:
   web:
-    image: nginx:1.27
+    image: nginx:1.31
     container_name: nginx-web
     restart: unless-stopped
     networks:
