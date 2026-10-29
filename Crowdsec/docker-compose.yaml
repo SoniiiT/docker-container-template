@@ -29,7 +29,7 @@ services:
   #crowdsec : it will be fed nginx's logs
   #and later we're going to plug a firewall bouncer to it
   crowdsec:
-    image: crowdsecurity/crowdsec:v1.0.8
+    image: crowdsecurity/crowdsec:v1.8.2
     restart: always
     environment:
       #this is the list of collections we want to install
