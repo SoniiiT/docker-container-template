@@ -2,7 +2,7 @@ version: "3.2"
 services:
   docs:
     container_name: codex_doc
-    image: ghcr.io/codex-team/codex.docs:v2.2.3
+    image: ghcr.io/codex-team/codex.docs:v2.3.3
     restart: always
     ports:
       - 3000:3000
