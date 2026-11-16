@@ -2,7 +2,7 @@ services:
   # Beispiel-Connector — Block kopieren und NAME/TOKEN für jeden weiteren Connector anpassen
   twingate-connector-example:
     container_name: twingate-connector-example
-    image: twingate/connector:1.88.0
+    image: twingate/connector:1.95.0
     restart: unless-stopped
     pull_policy: always
     environment:
